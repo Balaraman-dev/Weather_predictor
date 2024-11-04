@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family:  "Oswald", sans-serif;
+    font-weight: 200;
+}
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgb(40, 39, 59);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: aliceblue;
+    padding:20px;
+    border-radius: 3px;
+    gap:10px;
+}
+img{
+    width:auto;
+    height:20px;
+}
+.searchbox{
+    width:200px;
+    height:30px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0px 4px;
+    outline: none;
+}
+.search{
+    display: flex;
+    border: 2px solid rgb(81, 162, 196);
+    border-radius: 5px;
+}
+.searchimg:hover{
+    scale: 95%;
+}
+.searchimg{
+    width:15px;
+    height:20px;
+    margin:0%;
+    border-radius: 0px 5px 5px 0px;
+    border:none;
+    padding:5px;
+    background: white;
+}
+.weatherimg{
+    width:100px;
+    height:100px;
+    padding-top: 5px;
+}
+.gps{
+    display: flex;
+    gap: 20px;
+}
+.lower{
+
+    display:flex;
+    gap:100px;
+}
+.lower img{
+    width:40px;
+    height:40px;
+    background: none;
+}
+.city{
+    color:orange;
+    font-weight: 300;
+}
+.temperature{
+    font-weight: 400;
+}
+
